@@ -120,8 +120,6 @@ void SSD1306_Stopscroll(void)
 	SSD1306_WRITECOMMAND(SSD1306_DEACTIVATE_SCROLL);
 }
 
-
-
 void SSD1306_InvertDisplay (int i)
 {
   if (i) SSD1306_WRITECOMMAND (SSD1306_INVERTDISPLAY);
@@ -129,7 +127,6 @@ void SSD1306_InvertDisplay (int i)
   else SSD1306_WRITECOMMAND (SSD1306_NORMALDISPLAY);
 
 }
-
 
 void SSD1306_DrawBitmap(int16_t x, int16_t y, const unsigned char* bitmap, int16_t w, int16_t h, uint16_t color)
 {

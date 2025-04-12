@@ -26,7 +26,6 @@
 #ifdef __cplusplus
 extern C {
 #endif
-
 /**
  *
  * Default fonts library. It is used in all LCD based libraries.
